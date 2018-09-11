@@ -12,6 +12,10 @@ app.get('/cards', (req, res) => {
   res.render('card', { prompt: "Who is buried in Grant's tomb?", hint: "Think about whose tomb it is"});
 });
 
+app.get('/hello', (req, res) => {
+  res.render('hello', { prompt: "What is your name?"});
+});
+
 app.listen(3000, () => {
   console.log('the application is running on localhost:3000!')
 });
