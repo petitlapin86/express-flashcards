@@ -13,7 +13,11 @@ app.get('/cards', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-  res.render('hello', { prompt: "What is your name?"});
+  res.render('hello');
+});
+
+app.post('/hello', (req, res) => {
+  res.render('hello');
 });
 
 app.listen(3000, () => {
