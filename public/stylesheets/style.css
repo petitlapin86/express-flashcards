@@ -210,7 +210,7 @@ input {
 }
 
 .card-question div:first-of-type {
-  background-image: url("../img/content-header-question.png");
+  background-image: url("../img/aws-question.png");
   background-size: contain;
 }
 
@@ -219,7 +219,7 @@ input {
 }
 
 .card-answer div:first-of-type {
-  background-image: url("../img/content-header-answer.png");
+  background-image: url("../img/aws-answer.png");
   background-size: contain;
 }
 
