@@ -1,14 +1,19 @@
-extends layout
+extends app
 
-block main
-    section.namecard
-        .namecard-login
-            if name
-                p.namecard-greeting Welcome, #{name}!
-                form.namecard-exit(action='/goodbye', method='POST')
-                    button(type='submit')
-                        img(src='/static/img/close.svg')
-            else
-                p.namecard-greeting Hello, student!
-        block intro
-    block card
+block card
+  section(class=`flashcards`)
+    .card(class=`card-${side}`)
+      .card-header
+      h1.card-title= side
+      #content
+        h2= text
+        if hint
+          p.hint
+            i= hint
+      .card-flip-wrap
+        a(href=`${id}?side=${sideToShow}`)
+          img.card-flip(src='/static/img/flip.svg')
+      .card-next
+        a(href='/cards')
+          img(src="/static/img/next.svg")
+    script(src='/static/js/app.js')
