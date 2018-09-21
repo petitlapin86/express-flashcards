@@ -10,8 +10,8 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: #D64226;
-  font-size: 14px;
+  color: #2f9bff; /* blue color*/
+  font-size: 15px;
 }
 
 header img {
@@ -48,7 +48,7 @@ input {
   border: 0;
   border-radius: 5px;
   outline: none;
-  color: #34393D;
+  color: #34393D; /* this is the dark gray color*/
 }
 
 
@@ -56,15 +56,15 @@ input {
 .button-primary-small {
   margin-top: 50px;
   background-color: #fff;
-  border: 2px #D64226 solid;
+  border: 2px  #fbdb60 solid;
   font-size: 1em;
   padding: 8px 10px;
-  color: #D64226;
+  color:  #fbdb60;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .button-primary-small:hover {
-  background-color: #D64226;
+  background-color: #fbdb60;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -80,7 +80,7 @@ input {
   background-color: #F5F3ED;
   max-width: 400px;
   margin: auto;
-  color: #727C85;
+  color: #727C85; /*this is medium gray color*/
   text-align: center;
   border-radius: 20px;
 }
@@ -120,10 +120,10 @@ input {
 .namecard-submit {
   margin-top: 50px;
   background-color: #fff;
-  border: 2px #D64226 solid;
+  border: 2px  #fbdb60 solid;
   font-size: 1em;
   padding: 8px 10px;
-  color: #D64226;
+  color:  #fbdb60;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   width: 100%;
   display: block;
@@ -131,7 +131,7 @@ input {
 }
 
 .namecard-submit:hover {
-  background-color: #D64226;
+  background-color:  #fbdb60;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -160,7 +160,7 @@ input {
 /* Flash Cards */
 .flashcards {
   position: absolute;
-  top: 240px;
+  top: 265px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -201,12 +201,12 @@ input {
 }
 
 .card-answer .card-title {
-    background-color: #D64226;
+    background-color: #2f9bff; /* this is the lighter blue */
     color: #F5F3ED;
 }
 
 .card-question {
-  background-color: #F5F3ED;
+  background-color: #F5F3ED;/* this is the tan color */
 }
 
 .card-question div:first-of-type {
@@ -215,7 +215,7 @@ input {
 }
 
 .card-answer {
-  background-color: #D64226;
+  background-color: #154399; /* this is the darker blue*/
 }
 
 .card-answer div:first-of-type {
@@ -235,10 +235,10 @@ input {
   padding: 8px 10px;
   font-size: .8em;
   margin: auto;
-  color: #C79735;
+  color:  #2f85ff;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #F5F3ED;
-  border: 1px solid #C79735;
+  border: 1px solid  #2f85ff;
 }
 
 #content button {
@@ -247,7 +247,7 @@ input {
 
 #content button:hover {
   cursor: pointer;
-  background-color: #C79735;
+  background-color:  #2f85ff;
   color: #fff;
 }
 
@@ -268,7 +268,7 @@ input {
 }
 
 .card-flip:hover {
-  border: 2px solid #D64226;
+  border: 2px solid #fbdb60;
   cursor: pointer;
 }
 
@@ -286,7 +286,7 @@ input {
 .card-next a:link, .card-next a:visited, .card-next a:hover, .card-next a:active {
   text-align: center;
   text-decoration: none;
-  color: #727C85;
+  color: #2f85ff;
 }
 
 
