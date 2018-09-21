@@ -51,6 +51,14 @@ input {
   color: #34393D; /* this is the dark gray color*/
 }
 
+footer {
+  padding-top: 600px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #2f9bff;
+  font-size: 14px;
+}
+
 
 /* Buttons */
 .button-primary-small {
