@@ -1,31 +1,106 @@
 {
     "data": {
-        "title": "JavaScript Flashcards",
+        "title": "AWS Flashcards",
         "cards": [
             {
-                "question": "What language are Express apps written in?",
-                "hint": "It starts with a \"J\"",
-                "answer": "JavaScript"
+                "question": "What is S3?",
+                "hint": "Used for files, not suitable to install an operating system on",
+                "answer": "Object based storage"
             },
             {
-                "question": "What is one way a website can store data in a user's browser?",
-                "hint": "They are delicious with milk",
-                "answer": "Cookies"
+                "question": "What are regions?",
+                "hint": "This is as simple as it sounds",
+                "answer": "Geographical regions"
             },
             {
-                "question": "What is a common way to shorten the response object's name inside middleware?",
-                "hint": "It has the same abbreviation as \"resolution\"",
-                "answer": "res"
+                "question": "What is a group?",
+                "hint": "How else can you differentiate developers, HR, finance etc?",
+                "answer": "A place to store your users"
             },
             {
-                "question": "How many different values can booleans have?",
-                "hint": "Think: binary",
-                "answer": "2"
+                "question": "What are availability zones?",
+                "hint": "always at least 2 per region",
+                "answer": "Collection of data centers"
             },
             {
-                "question": "Which HTML element can contain JavaScript?",
-                "hint": "It starts with an \"s\"",
-                "answer": "<script>"
+                "question": "Do you use a private or public key to connect to EC2?",
+                "hint": "You got this!",
+                "answer": "Private Key"
+            },
+            {
+                "question": "How do you design for failure in EC2",
+                "hint": "cover all the bases",
+                "answer": "Have one EC2 instance in each availability zone"
+            },
+            {
+                "question": "Do you need to specify what region roles are in?",
+                "hint": "You know this!",
+                "answer": "No, roles are universal"
+            },
+            {
+                "question": "Why use roles over Access Key ID's and Secret Access Keys?",
+                "hint": "Two part answer",
+                "answer": "Roles are more secure and easier to manage"
+            },
+            {
+                "question": "When can you apply roles to EC2 instances?",
+                "hint": "Extra Credit: they apply immediately",
+                "answer": "Anytime"
+            },
+            {
+                "question": "What is EC2?",
+                "hint": "It's not serverless, it is a server!",
+                "answer": "Compute based storage"
+            },
+            {
+                "question": "What are security groups?",
+                "hint": "Think internet safety!",
+                "answer": "security groups are virtual firewalls in the cloud"
+            },
+            {
+                "question": "How do you use security groups?",
+                "hint": "think SSH, HTTP, HTTPS and RDP!",
+                "answer": "You need to open ports to use security groups"
+            },
+            {
+                "question": "What are the 4 types of EBS volumes?",
+                "hint": "think SSH, HTTP, HTTPS and RDP!",
+                "answer": "General, Provisional IOPS SSD, Throughout Optimized HDD, Cold Hard Disk HDD"
+            },
+            {
+                "question": "What is EBS?",
+                "hint": "It stands for Elastic Block Storage!",
+                "answer": "EBS is a virtual disk that you install on your OS and virtual firewalls"
+            },
+            {
+                "question": "What are the 11 instance types?",
+                "hint": "Acronym Fight Dr. Mc Px!",
+                "answer": "FGPA, IOPS, Graphics, High Disk Throughout, T2, Density, RAM, Main Choice, Compute, Graphics (pics), Extreme Memory"
+            },
+            {
+                "question": "What do you use Redshift for?",
+                "hint": "Two part answer!",
+                "answer": "Business Intelligence or Data Warehousing"
+            },
+            {
+                "question": "What does RDS stand for?",
+                "hint": "Think database, table, row, column!",
+                "answer": "Relational Databases"
+            },
+            {
+                "question": "What do you use Dynamo DB for?",
+                "hint": "Two part answer!",
+                "answer": "Non-Relational Databases or autoscaling on the fly"
+            },
+            {
+                "question": "What are the two key features of RDS?",
+                "hint": "One is for disaster recovery and the other performance",
+                "answer": "Multi-AZ and Read Replicas"
+            },
+            {
+                "question": "What do you use Aurora or MySQL for?",
+                "hint": "A type of database",
+                "answer": "Relational Databases"
             }
         ]
     }
